@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script src="Yu-Gi-Oh%20Probability%20Calculator_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app225.us.archive.org';v.server_ms=891;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="Yu-Gi-Oh%20Probability%20Calculator_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="Yu-Gi-Oh%20Probability%20Calculator_files/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="Yu-Gi-Oh%20Probability%20Calculator_files/ruffle.js"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.yugioh.party/","20240402182816","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1712082496");
+</script>
+<link rel="stylesheet" type="text/css" href="Yu-Gi-Oh%20Probability%20Calculator_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="Yu-Gi-Oh%20Probability%20Calculator_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="Yu-Gi-Oh%20Probability%20Calculator_files/jquery.min.js"></script>
+        <link href="Yu-Gi-Oh%20Probability%20Calculator_files/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <script src="Yu-Gi-Oh%20Probability%20Calculator_files/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="Yu-Gi-Oh%20Probability%20Calculator_files/probability.css">
+        <script src="Yu-Gi-Oh%20Probability%20Calculator_files/probability.js"></script>
+        <script src="Yu-Gi-Oh%20Probability%20Calculator_files/templates.js"></script>
+
+        <meta charset="utf-8">
+        <title>Yu-Gi-Oh Probability Calculator</title>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Yu-Gi-Oh Probability Calculator</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="content col-sm-6 col-sm-offset-3">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Yu-Gi-Oh Deck Probability Calculator</div>
+                        <div class="panel-body">
+                            Easily improve your deck with the power of
+math! This calculator lets you find the chance of opening your key
+combos,
+                            letting you make better decisions during
+deck-building. Click below for examples to get started.
+                            <br><br>
+                            <div class="panel panel-info">
+                                <div class="panel-heading"><a data-toggle="collapse" href="#examples">Examples</a></div>
+                                <div id="examples" class="panel-body panel-collapse collapse">
+                                    <div class="panel-body">
+                                        To find the chance of opening
+your only copy of Allure of Darkness along with at least 1 of your 10
+DARK monsters, use the following:
+                                        <div class="col-xs-12">
+                                            <div class="example-well well col-xs-12">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="50%">Name</th>
+                                                            <th>Amt</th>
+                                                            <th>Min</th>
+                                                            <th>Max</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Allure</td>
+                                                            <td>1</td>
+                                                            <td>1</td>
+                                                            <td>1</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td>DARK</td>
+                                                            <td>10</td>
+                                                            <td>1</td>
+                                                            <td>4</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        <br><br>
+                                        To find the chance of opening
+one of your 5 copies of Dragon Ravine (Terraforming is basically a copy
+of Ravine) along with at least 1 Dragunity Dux
+                                        or Dragunity Phalanx (both of
+which you run at 3) use:
+
+                                        <div class="col-xs-12">
+                                            <div class="example-well well col-xs-12">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th width="50%">Name</th>
+                                                            <th>Amt</th>
+                                                            <th>Min</th>
+                                                            <th>Max</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Ravine</td>
+                                                            <td>5</td>
+                                                            <td>1</td>
+                                                            <td>5</td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td>Dux or Phalanx</td>
+                                                            <td>6</td>
+                                                            <td>1</td>
+                                                            <td>6</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="panel-body">
+                            <form class="form-horizontal" role="form">
+                                <div class="form-group">
+                                    <label for="deck-size" class="col-xs-3 col-xs-offset-3 control-label">Deck Size</label>
+                                    <div class="col-xs-3">
+                                        <input type="text" class="form-control number-input" id="deck-size" value="40">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="hand-size" class="col-xs-3 col-xs-offset-3 control-label">Hand Size</label>
+                                    <div class="col-xs-3">
+                                        <input type="text" class="form-control number-input" id="hand-size" value="5">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <hr>
+                        <div class="panel-body card-types-container">
+                            <form action="" class="form-horizontal" role="form">
+                                <div class="form-group titles">
+                                    <label class="col-xs-2 col-xs-offset-6">Amt</label>
+                                    <label class="col-xs-2">Min</label>
+                                    <label class="col-xs-2">Max</label>
+                                </div>
+                                <div id="card-types-container">
+                                    <div class="form-group">
+                                        <label for="deck-size" class="col-xs-6 control-label">Miscellaneous Cards</label>
+                                        <div class="col-xs-2">
+                                            <p class="form-control-static number-input text-center" id="misc-amt" style="color:black">40</p>
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <p class="form-control-static number-input text-center" id="misc-min">0</p>
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <p class="form-control-static number-input text-center" id="misc-max">5</p>
+                                        </div>
+                                    </div>
+
+
+                                <div class="form-group" id="card-type-0-container">
+                                    <div class="col-xs-6">
+                                        <input class="col-xs-6 form-control card-types-input card-types-name" id="card-type-0-name" placeholder="Card Name">
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <input type="text" class="form-control number-input card-types-amt" id="card-type-0-amt" placeholder="3">
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <input type="text" class="form-control number-input card-types-min" id="card-type-0-min" placeholder="1">
+                                    </div>
+                                    <div class="col-xs-2">
+                                        <input type="text" class="form-control number-input card-types-max" id="card-type-0-max" placeholder="3">
+                                    </div>
+                                </div>
+        </div>
+                            </form>
+                            <div>
+                                <button id="card-types-add-button" class="btn btn-default col-xs-1 col-xs-offset-9">+</button>
+                                <button id="card-types-sub-button" class="btn btn-default col-xs-1" disabled="disabled">-</button>
+                            </div>
+                        </div>
+                        <div class="panel-footer" id="percentage"><label>You have a <span style="color: green">100</span>% chance to open this hand.</label></div>
+                    </div>
+                </div>
+            </div>
+
+            <p style="color: #808080; padding-top: 15px; font-size: 12px">Created by Rustywolf &amp; Bilaterus</p>
+        </div>
+
+
+
+<script src="Yu-Gi-Oh%20Probability%20Calculator_files/app.js" type="text/javascript"></script></body></html>
+<!--
+     FILE ARCHIVED ON 18:28:16 Apr 02, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:13:29 Apr 12, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.637
+  exclusion.robots: 0.191
+  exclusion.robots.policy: 0.182
+  cdx.remote: 0.062
+  esindex: 0.011
+  LoadShardBlock: 77.217 (3)
+  PetaboxLoader3.datanode: 647.311 (5)
+  load_resource: 773.95 (2)
+  PetaboxLoader3.resolve: 166.887 (2)
+-->
